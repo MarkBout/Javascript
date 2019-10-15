@@ -2,6 +2,7 @@ pics = document.getElementById("holder");
 makepicholders();
 plaatjes();
 
+//Div's om afbeeldingen in te plaatsen maken
 function makepicholders() {
     for (var i = 0; i < 9; i++) {
         sesPicture = document.createElement("div");
@@ -10,7 +11,7 @@ function makepicholders() {
         pics.appendChild(sesPicture);
     }
 }
-
+//afbeeldingen toevoegen
 function plaatjes() {
     pictureholders = document.getElementsByClassName("picholder");
     for (var i = 0; i < pictureholders.length; i++) {
@@ -27,7 +28,7 @@ function plaatjes() {
         pictureholders[i].appendChild(obamaPrism);
     }
 }
-
+//gedrag favoriet icoon
 function hartje(id) {
     console.log("Het id nummer is "+ id)
     notfav = document.getElementsByClassName("favoriet");
