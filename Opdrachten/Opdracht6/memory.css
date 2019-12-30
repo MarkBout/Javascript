@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width:80%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width:100px;
+    height: 100px;
+}
+
+div {
+    margin: 10px;
+}
+
+#win {
+    padding: 20px;
+    visibility: hidden;
+    width: 270px;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    background-color: yellow;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left: 40%;
+}
+
+div#speler2 {
+    float: right;
+}
+
+div.spelers, div#beurt {
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px;
+    width: 100%;
+}
+
+#pics {
+
+}
+
+div#beurt {
+    position: absolute;
+    left: 40%;
+    width: auto;
+    height: auto;
+    background-color: darkkhaki;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+}
+
+div.spelers {
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    background-color: orange;
+    text-align: center;
+}

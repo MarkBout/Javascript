@@ -30,12 +30,10 @@ function plaatjes() {
 }
 //gedrag favoriet icoon
 function hartje(id) {
-    console.log("Het id nummer is "+ id)
     notfav = document.getElementsByClassName("favoriet");
     for (var i = 0; i < notfav.length; i++) {
         notfav[i].style.backgroundImage = "none";
     }
     favoriet = document.getElementById("favoriet " + id);
     favoriet.style.backgroundImage = "url('img/heart.png')";
-
 }
