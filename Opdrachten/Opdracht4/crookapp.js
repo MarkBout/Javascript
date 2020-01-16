@@ -10,17 +10,17 @@ facecounter = 0;
 var rij1 = document.getElementById("venster1");
 var rij2 = document.getElementById("venster2");
 var rij3 = document.getElementById("venster3");
-document.body.style.backgroundColor = "pink";
+document.body.style.backgroundColor = "gray";
 
     rij1.addEventListener("click", function () {
     rij1.style.backgroundImage = "url('crookImg/hoofd"+ getHead() +".png')";
 });
 
-rij2.addEventListener("click", function () {
+    rij2.addEventListener("click", function () {
     rij2.style.backgroundImage = "url('crookImg/face"+ getEyes() +".png')";
 });
 
-rij3.addEventListener("click", function () {
+    rij3.addEventListener("click", function () {
     rij3.style.backgroundImage = "url('crookImg/mond"+ getMond() +".png')";
 });
 
